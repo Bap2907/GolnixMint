@@ -57,12 +57,12 @@ app.get("/get-random", (req, res) => {
 })
 const myProxy = [
   {
-    linkChange: "https://api.enode.vn/getip/3723c626a445927da894f14c0bef2757fa4a921e",
-    proxy: "http://117.1.90.217:33674"
+    linkChange: "https://api.enode.vn/getip/fd76cb4f0909654b9b1ccab747a4c56faeea65c3",
+    proxy: "http://27.76.202.149:47380"
   },
   {
-    linkChange: "https://api.enode.vn/getip/a3b638ab0482237efdf9fd69501d0e7b60beaeb8",
-    proxy: "http://117.1.92.65:12552"
+    linkChange: "https://api.enode.vn/getip/eb91ae15863e3aea715046aa6743bfadea9852e9",
+    proxy: "http://116.97.200.204:45514"
   }
 ]; // 1 rảnh, 0 bận
 
