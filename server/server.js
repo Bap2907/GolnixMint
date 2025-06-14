@@ -45,8 +45,8 @@ app.get("/random-email", async (req, res) => {
 });
 app.get("/get-random", (req, res) => {
   dataRandom = generateCccd()
-  dataRandom.password = "AmosIrvin6028"
-  dataRandom.emailNhan = "shmilybin1110@gmail.com"
+  dataRandom.password = "Phongbk!"
+  dataRandom.emailNhan = "anhphongbkdn123@gmail.com"
   dataRandom.email = emailRandom
   console.log(dataRandom.email)
   if (results.length < 2) {
@@ -57,12 +57,12 @@ app.get("/get-random", (req, res) => {
 })
 const myProxy = [
   {
-    linkChange: "https://api.enode.vn/getip/76c1a289303d8e7da59529947131d35caa027053",
-    proxy: "http://117.1.89.113:10793"
+    linkChange: "https://api.enode.vn/getip/b39c4493569ce997f218a767eeae8bbf4cfa5b22",
+    proxy: "http://27.76.204.235:16590"
   },
   {
-    linkChange: "https://api.enode.vn/getip/95ebb5bfd2799b4cc14d629f165dfbdeb00d305e",
-    proxy: "http://117.1.90.162:34610"
+    linkChange: "https://api.enode.vn/getip/eb72d34ca2bddc528d14694b79e1a04bef9b2c93",
+    proxy: "http://117.1.92.65:33624"
   }
 ]; // 1 rảnh, 0 bận
 
